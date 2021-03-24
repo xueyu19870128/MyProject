@@ -9,7 +9,7 @@ namespace SiteServer.BackgroundPages
     public class BasePage : Page
     {
         private MessageUtils.Message.EMessageType _messageType;
-        private string _message = string.Empty;
+        private string _message = string.Empty;       
         private string _scripts = string.Empty;
 
         protected virtual bool IsAccessable => false; // 页面默认情况下是不能直接访问
