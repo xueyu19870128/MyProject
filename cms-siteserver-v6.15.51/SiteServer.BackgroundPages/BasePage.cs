@@ -16,7 +16,7 @@ namespace SiteServer.BackgroundPages
 
         protected virtual bool IsSinglePage => false; // 是否为单页（即是否需要放在框架页内运行,false表示需要）
 
-        protected virtual bool IsInstallerPage => false; // 是否为系统安装页面
+        protected virtual bool IsInstallerPage => false; // 是否为系统安装页面  
 
         public string IsNightly => WebConfigUtils.IsNightlyUpdate.ToString().ToLower(); // 系统是否允许升级到最新的开发版本
 
